@@ -1,32 +1,48 @@
-## Blog Pribadi
+# PROJECT-PKL-KESRA
 
-Website ini berisi pengamatan saya tentang makhluk hidup disekitar. Website ini juga berisi foto hewan, tumbuhan, atau bahkan fungi yang saya temukan beserta deskripsi taksonominya. Website ini akan di update secara berkala ketika saya ingin memasukkan spesies-spesies baru. Website ini dibuat menggunakan Django. 
+[Deskripsi singkat project: untuk apa website ini, siapa penggunanya, dan fitur utamanya.]
 
-# 🌀 Django Web App Setup Guide
+Website ini dibuat menggunakan Django.
 
----
-
-## 🚀 Langkah-Langkah Penggunaan
+## Langkah Penggunaan
 
 ### 1. Clone Repository
-git clone https://github.com/alfithoDinopa/2311102441256_ALFITHO-DINOPA_DJANGO.git
-cd 2311102441256_ALFITHO-DINOPA_DJANGO
 
+```bash
+git clone https://github.com/alfithoDinopa/PROJECT-PKL-KESRA.git
+cd PROJECT-PKL-KESRA
+```
 
 ### 2. Buat Virtual Environment
- python -m venv venv
- # Aktifkan virtual environment:
- source venv/bin/activate       # Linux / macOS
- venv\Scripts\activate          # Windows
 
-### 3. Install Django
- --> pip install django
+```bash
+python -m venv venv
+
+# Aktifkan:
+source venv/bin/activate    # Linux / macOS
+venv\Scripts\activate       # Windows
+```
+
+### 3. Install Dependensi
+
+```bash
+pip install django
+```
 
 ### 4. Setup Database
- --> Install MySQL dan jalankan
- --> Membuat Database projectsaya
- --> migrasi database "python manage.py migrate"
 
- ### 5. Run Server
-  --> python manage.py runserver
- 
+1. Install dan jalankan MySQL
+2. Buat database `projectsaya`
+3. Jalankan migrasi:
+
+```bash
+python manage.py migrate
+```
+
+### 5. Jalankan Server
+
+```bash
+python manage.py runserver
+```
+
+Buka http://127.0.0.1:8000 di browser.
